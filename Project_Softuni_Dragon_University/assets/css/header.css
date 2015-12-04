@@ -1,0 +1,74 @@
+/*
+  Web Fundamentals HTML/CSS (Feb 2015)
+  Teamwork Project Assignment for the Web Fundamentals (HTML & CSS) Course @ vinkeluni
+  TEAM DRAGON
+  Martin Georgiev | Stanislav Stanev | Tinka Pavlova
+  2015
+*/
+/*  MENU  */
+nav{
+	border-bottom: 2px solid #ccc;
+	text-align: center;
+	padding: 10px 2px;
+	background-color: #fff;
+	margin-bottom: 10px;
+}
+nav ul li{
+	display: inline-block;
+	color:#1D1D1B;
+
+}
+nav > ul > li > a:hover {
+	color: #0681e2;
+	opacity:0.5;
+}
+nav ul li a{
+	text-decoration:none;
+	display: inline-block;
+	padding: 10px 20px;
+	color:#1D1D1B;
+	border-bottom: 2px solid #fff;
+}
+nav ul ul {
+	display: none;
+}
+nav ul li:hover > ul {
+	display: block;
+	position: absolute;
+	z-index: 1;
+}
+nav > ul >li ul > li {
+	display: block;
+}
+.submenu a{
+	width: 90%;
+	background-color: #e20613;
+	color: #fff;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+}
+#wrapper > header > nav > ul > li:nth-child(2) > ul > li{
+	color: #fff;
+	border: none;display: block;
+}
+.active{
+	color:#e20613;
+}
+.menu-logo{
+	width: 60px;
+	vertical-align: middle;
+	margin: 0 10px;
+}
+
+/*  END MENU  */
+.breadcrumb{
+	padding: 10px 15px;
+	/*background-color: #0681e2;*/
+	background: url(../images/breadcrumb.png);
+	color: #666666;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+.breadcrumb > a {
+	color: #666666;
+}

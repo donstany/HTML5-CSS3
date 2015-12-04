@@ -1,0 +1,104 @@
+/*
+  Web Fundamentals HTML/CSS (Feb 2015)
+  Teamwork Project Assignment for the Web Fundamentals (HTML & CSS) Course @ vinkeluni
+  TEAM DRAGON
+  Martin Georgiev | Stanislav Stanev | Tinka Pavlova
+  2015
+*/
+/*
+###########################################
+#e20613 - ЧЕРВЕН
+#1d1d1b - СВЕТЛО ЧЕРЕН
+#0681e2 - СИН
+#666666 - СИВ ТЕКСТ
+###########################################
+*/
+html {
+	height: 100%;
+	width:100%;
+	font-family: 'Roboto', sans-serif;
+}
+body{
+	width:95%;
+	margin: 0 auto;
+	background: url(../images/bg1.svg)no-repeat;
+	-webkit-background-size: 50%;
+	-moz-background-size: 50%;
+	-ms-background-size: 50%;
+	-o-background-size: 50%;
+	background-size: 50%;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: #fff;
+	color: #666666;
+	text-align: justify;
+	font-size: 18px;
+	line-height: 1.5;
+
+}
+#wrapper{
+	width:960px;
+	margin: 0 auto;
+	color: #666666;
+}
+body:hover{
+	width:95%;
+	margin: 0 auto;
+	background: url(../images/bg2.svg)no-repeat;
+	-webkit-background-size: 50%;
+	-moz-background-size: 50%;
+	-ms-background-size: 50%;
+	-o-background-size: 50%;
+	background-size: 50%;
+	background-position: center;
+	background-attachment: fixed;
+	background-color: #fff;
+
+}
+.fb-like{
+	width:100%;
+	text-align: center;
+	padding:20px;
+	position:absolute;
+	bottom:0;
+	right:0;
+	left:0;
+}
+/*  FOOTER  */
+#footer {
+	width:100%;
+	height:10px;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	border-top: 1px solid #1d1d1b;
+	text-align: center;
+	color:#1d1d1b;
+	font-size: 12px;
+	padding:10px 0;
+	background-color: #fff;
+}
+/*  END FOOTER  */
+
+.validators{
+	position: absolute;
+	left: 0px;
+	top: 40%;
+	z-index: 1;
+}
+.html, .css{
+	display: block;
+	margin: 10px 5px;
+}
+.menu-logo{
+	width: 60px;
+	vertical-align: middle;
+	margin: 0 10px;
+}
+footer a{
+	color: #0681e2;
+	text-decoration: none;
+	font-weight: bold;
+}
+

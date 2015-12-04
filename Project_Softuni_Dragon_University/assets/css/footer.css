@@ -1,0 +1,37 @@
+/*
+  Web Fundamentals HTML/CSS (Feb 2015)
+  Teamwork Project Assignment for the Web Fundamentals (HTML & CSS) Course @ vinkeluni
+  TEAM DRAGON
+  Martin Georgiev | Stanislav Stanev | Tinka Pavlova
+  2015
+*/
+/*
+###########################################
+#e20613 - ЧЕРВЕН
+#1d1d1b - СВЕТЛО ЧЕРЕН
+#0681e2 - СИН
+###########################################
+*/
+/*  FOOTER  */
+#footer {
+	width:100%;
+	position:absolute;
+	left:0;
+	right:0;
+	border-top: 1px solid #1d1d1b;
+	text-align: center;
+	color:#ffffff;
+	font-size: 12px;
+	padding:10px 0;
+	background-color: #1d1d1b;
+	margin-top: 50px;
+}
+#footer>.validators{
+	margin: -35px 0 10px 0;
+}
+#footer a{
+	color: #0681e2;
+	text-decoration: none;
+	font-weight: bold;
+}
+/*  END FOOTER  */
